@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="verk21css.css">
+</head>
+<body>
+	<div class="graennkassi">
+		<h1>Box Módelið</h1>
+	</div>
+
+	<div class="raudurkassi">
+		<div class="graennkassi">
+			<h1 style="color: red">Box Módel class
+			</h1>
+		</div>
+	</div>
+	<div class="raudurkassi">
+		<div class="blarkassi">
+			<h1 style="color: blue">Box Model 2
+			</h1>
+		</div>
+	</div>
+</body>
+</html>
+.graennkassi {
+    padding: 0px; border: 2px solid green; margin: 25px;      
+}
+
+.raudurkassi {
+    padding: 20px; border: 5px solid red; margin: 25px;   
+}
+
+.blarkassi {
+    padding: 20px; border: 5px dashed blue; margin: 25px
+}
