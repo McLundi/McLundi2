@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="verk2_2css.css">
+</head>
+<body>
+	<h1>
+		Verkefni 2.2
+	</h1>
+		<ul>
+			<li><ul class="graennkassi">Texti bla bla</ul></li>
+			<li><ul class="graennkassi">Texti bla bla</ul></li>
+			<li><ul class="graennkassi">Texti bla bla</ul></li>
+			<li><ul class="graennkassi">Texti bla bla</ul></li>
+		</ul>
+<br>
+<hr>
+<br>
+		<ul>
+			<ul class="blarkassi">Texti bla bla</ul>
+			<ul class="blarkassi">Texti bla bla</ul>
+			<ul class="blarkassi">Texti bla bla</ul>
+			<ul class="blarkassi">Texti bla bla</ul>
+			<ul class="blarkassi">Texti bla bla</ul>
+			<ul class="blarkassi">Texti bla bla</ul>
+			<ul class="blarkassi">Texti bla bla</ul>
+			<ul class="blarkassi">Texti bla bla</ul>
+			<ul class="blarkassi">Texti bla bla</ul>
+			<ul class="blarkassi">Texti bla bla</ul>
+		</ul>
+<br>
+<hr>
+<br>
+		<ul>
+			<ul class="raudurkassi">Texti bla bla</ul>
+			<ul class="raudurkassi">Texti bla bla</ul>
+			<ul class="raudurkassi">Texti bla bla</ul>
+			<ul class="raudurkassi">Texti bla bla</ul>
+			<ul class="raudurkassi">Texti bla bla</ul>
+			<ul class="raudurkassi">Texti bla bla</ul>
+			<ul class="raudurkassi">Texti bla bla</ul>
+			<ul class="raudurkassi">Texti bla bla</ul>
+			<ul class="raudurkassi">Texti bla bla</ul>
+			<ul class="raudurkassi">Texti bla bla</ul>
+			<ul class="raudurkassi">Texti bla bla</ul>
+			<ul class="raudurkassi">Texti bla bla</ul>
+		</ul>
+</body>
+</html>
+.graennkassi{
+	display: block; padding: 1em; margin: 1em; border: 3px dashed green;
+}
+.blarkassi{
+	display: inline; padding: 1em; margin: 1em; border: 3px dashed blue; color: red;
+}
+.raudurkassi{
+	display: inline-block; padding: 1em; margin: 1em; border: 3px dashed red;
+}
